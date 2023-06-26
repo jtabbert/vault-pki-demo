@@ -8,7 +8,7 @@ CONFIG="
   basicConstraints=CA:TRUE,pathlen:0
   "
 
-openssl req -config <(echo "$CONFIG") -new -newkey rsa:2048 -nodes \-subj "/C=IN/O=hashicat/OU=Cloud-DevOps/ST=AP/CN=hashicat.com/emailAddress=hashicat@hashicorp.com" -x509 -days 365 -extensions ext -keyout root-key.pem -out root-cert.pem
+openssl req -config <(echo "$CONFIG") -new -newkey rsa:2048 -nodes \-subj "/C=IN/O=hashicat/OU=DevSecOps/ST=AP/CN=hashicat.com/emailAddress=hashicat@hashicorp.com" -x509 -days 365 -extensions ext -keyout root-key.pem -out root-cert.pem
 
 cat root-key.pem root-cert.pem > pem_bundle
 
