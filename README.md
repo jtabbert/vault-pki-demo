@@ -20,9 +20,9 @@ Instructions
 ```
 "cd vault/secrets"
 ```
-7. Run
+7. Run the command below to inspect the certificate
 ```
-"openssl x509 -text -in server.crt" to inspect the certificate
+"openssl x509 -text -in server.crt"
 ```
 9. The Certificate will be rotated every 3 minutes, you can run the above command to show the new serial number & the time the certificate is valid for
 10. You can also show server.key is present in vault/secrets in the container
