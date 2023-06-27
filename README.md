@@ -25,4 +25,5 @@ cd vault/secrets
 openssl x509 -text -in server.crt
 ```
 9. The Certificate will be rotated every 3 minutes, you can run the above command to show the new serial number & the time the certificate is valid for
-10. You can also show server.key is present in vault/secrets in the container
+10. You can also show server.key is present in vault/secrets in the container.
+11. At this time the demo only shows the Vault agent injector copying server.crt & server.key.  The certificate is not being used by any webserver or application.  A future enhancement will aim to demonstrate that.
