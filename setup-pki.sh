@@ -79,6 +79,6 @@ spec:
   containers:
   - image: nginx
     name: pki-test
-  restartPolicy: Always' > k8s/pki-test.yml
+  restartPolicy: Always' > ~/k8s/pki-test.yml
 
-kubectl apply -f k8s/pki-test.yml
+kubectl apply -f ~/k8s/pki-test.yml
