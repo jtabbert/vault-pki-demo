@@ -8,15 +8,15 @@ Instructions
 
 1. Skip to the end of the lab
 2. Copy & Paste the code in "setup-pki.sh" into a new file on the Terminal Tab
-3. Run the script 
+3. Run the script. This will enable the PKI secrets engine, create a k8s service account, and create a pod that will grab a certificate from Vault.
 ```
 bash setup-pki.sh
 ```
-4. Run 
+4. Run the command below to start an interactive shell in the new pod.
 ```
 kubectl exec -it pki-test -- sh
 ```
-5. Run
+5. Run the command below to move to the directory where the certificate & key are stored.
 ```
 cd vault/secrets
 ```
