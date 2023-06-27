@@ -7,8 +7,11 @@ https://play.instruqt.com/hashicorp/tracks/vault-managing-secrets-and-moving-to-
 Instructions
 
 1. Skip to the end of the lab
-2. Copy & Paste the code in "setup-pki.sh" into a new file on the Terminal Tab
-3. Run the script. This will enable the PKI secrets engine, create a k8s service account, and create a pod that will grab a certificate from Vault.
+2. Clone the git repo with the command below
+```
+git clone https://github.com/jtabbert/vault-pki-demo
+```
+4. Run the script. This will enable the PKI secrets engine, create a k8s service account, and create a pod that will grab a certificate from Vault.
 ```
 bash setup-pki.sh
 ```
