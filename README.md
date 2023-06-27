@@ -7,8 +7,8 @@ https://play.instruqt.com/hashicorp/tracks/vault-managing-secrets-and-moving-to-
 Instructions
 
 1. Skip to the end of the lab
-2. Copy & Paste the code in "setuppki.sh" into a new file on the Terminal Tab
-3. Run The script "bash setuppki.sh"
+2. Copy & Paste the code in "setup-pki.sh" into a new file on the Terminal Tab
+3. Run The script "bash setup-pki.sh"
 4. Run "kubectl exec -it pki-test sh"
 5. Run "cd vault/secrets"
 6. Run "openssl x509 -text -in server.crt" to inspect the certificate
