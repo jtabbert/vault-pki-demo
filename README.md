@@ -13,7 +13,7 @@ git clone https://github.com/jtabbert/vault-pki-demo
 ```
 4. Run the script. This will enable the PKI secrets engine, create a k8s service account, and create a pod that will grab a certificate from Vault.
 ```
-bash setup-pki.sh
+bash vault-pki-demo/setup-pki.sh
 ```
 4. Run the command below to start an interactive shell in the new pod.
 ```
