@@ -29,4 +29,5 @@ openssl x509 -text -in server.crt
 ```
 9. The Certificate will be rotated every 3 minutes, you can run the above command to show the new serial number & the time the certificate is valid for
 10. You can also show server.key is present in vault/secrets in the container.
-11. At this time the certificate is not being used by any webserver or application.  A future enhancement will aim to demonstrate that.
+11. The Vault UI can also be used to show the certificates being issued.
+12. At this time the certificate is not being used by any webserver or application.  A future enhancement will aim to demonstrate that.
