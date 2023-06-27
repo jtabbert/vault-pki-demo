@@ -6,7 +6,7 @@ https://play.instruqt.com/hashicorp/tracks/vault-managing-secrets-and-moving-to-
 
 Instructions
 
-1. Skip to the end of the lab
+1. Skip ahead to the last challenge "Vault Agent with Kubernetes"
 2. Clone the git repo with the command below
 ```
 git clone https://github.com/jtabbert/vault-pki-demo
