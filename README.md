@@ -8,7 +8,7 @@ Instructions
 
 1. Skip to the end of the lab
 2. Copy & Paste the code in "setup-pki.sh" into a new file on the Terminal Tab
-3. Run The script 
+3. Run the script 
 ```
 bash setup-pki.sh
 ```
