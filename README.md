@@ -15,7 +15,7 @@ This demo was created to show the PKI secrets engine being used with the Vault A
 ```
 git clone https://github.com/jtabbert/vault-pki-demo
 ```
-4. Run the script. This will enable the PKI secrets engine, create a k8s service account, and create a pod that will grab a certificate from Vault.
+4. Run the script. This will enable the PKI secrets engine, create a k8s service account, and create a new pod. The Vault Agent Injector Sidecar will inject the server.crt & server.key into /vault/secrets into the new "pki-test" pod.
 ```
 bash vault-pki-demo/setup-pki.sh
 ```
