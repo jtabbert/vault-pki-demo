@@ -1,6 +1,6 @@
 # vault-pki-demo
 
-This repo is to be used with the following instruqt lab.  This instruqt lab is private
+This repo is to be used with the following Instruqt lab.  This Instruqt lab is private.
 
 https://play.instruqt.com/hashicorp/tracks/vault-managing-secrets-and-moving-to-cloud
 
